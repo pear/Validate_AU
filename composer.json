@@ -1,0 +1,41 @@
+{
+    "authors": [
+        {
+            "email": "ahayes@wcg.net.au",
+            "name": "Alex Hayes",
+            "role": "Lead"
+        },
+        {
+            "email": "byron.adams54@gmail.com",
+            "name": "Byron Adams",
+            "role": "Lead"
+        },
+        {
+            "email": "daniel.oconnor@gmail.com",
+            "name": "Daniel O'Connor",
+            "role": "Lead"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Validate_AU": "./"
+        }
+    },
+    "description": "More info available on: http://pear.php.net/package/Validate_AU",
+    "include-path": [
+        "./"
+    ],
+    "license": "BSD License",
+    "name": "pear/validate_au",
+    "support": {
+        "issues": "http://pear.php.net/bugs/search.php?cmd=display&package_name[]=Validate_AU",
+        "source": "https://github.com/pear/Validate_AU"
+    },
+    "type": "library",
+    "require": {
+        "pear/pear_exception": "*"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    }
+}
